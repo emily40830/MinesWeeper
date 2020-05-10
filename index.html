@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div id="title">
+      <h1>Minesweeper</h1>
+    </div>
+  </header>
+
+  <div id="wrapper">
+    <div id="main">
+      <div id="mineMap"></div>
+      <div class="info">
+        <div class="info-content timerName">
+          <h4 class="info-item">Time :</h4>
+          <div id="timer" class="info-item">0</div>
+          <h4 class="info-item"> sec</h4>
+
+        </div>
+        <div class="info-content flagNumName">
+          <h4 class="info-item"> FlagNum ：</h4>
+          <div id="flagNum" class="info-item">0</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
